@@ -1,0 +1,11 @@
+bs4
+
+re
+dotenv
+
+langchain
+langchain-core
+langchain-pinecone
+pinecone-notebooks
+
+langchain-google-genai
