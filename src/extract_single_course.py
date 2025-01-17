@@ -65,7 +65,7 @@ def extract_course_details(course_url):
     if curriculum_section:
         items = curriculum_section.find_all('h5')
         for idx, item in enumerate(items):
-            if idx == 13: # Only Showing maximum 12 curriculums to the users
+            if idx == 10: # Only Showing maximum 10 curriculums to the users
                 text = "...and many more"
                 curriculum.append(text)
                 break
